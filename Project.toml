@@ -1,7 +1,7 @@
 name = "FilePicker"
 uuid = "343e72c2-1f68-4e09-982b-00772761bd7a"
 authors = ["Josh Day <emailjoshday@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.0.1"
 
 [compat]
 julia = "1.6.7"
