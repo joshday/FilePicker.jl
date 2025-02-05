@@ -42,7 +42,6 @@ jobs:
       - name: Install Zenity (Ubuntu only)
         if: runner.os == 'Linux'
         run: |
-          sudo apt-get update && sudo apt-get install -y
+          sudo apt-get update && sudo apt-get install -y zenity
           which zenity
-          zenity --version
       - uses: julia-actions/julia-runtest@v1
