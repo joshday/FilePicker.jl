@@ -3,18 +3,26 @@
 [![Build Status](https://github.com/joshday/FilePicker.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/joshday/FilePicker.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 
-**A simple zero-dependency file picker for Julia.**
+**A lightweight file picker for Julia.**
 
-This package relies on native file pickers on each platform (mac, windows, linux).
+This package relies on different built-in[^1] dependencies depending on the platform:
+
+1. Mac: `osascript`
+2. Windows: `powershell`
+3. Linux: `zenity`, `kdialog`, or `yad`.
+
+[^1]: `osascript` and `powershell` are part of macOS and Windows, respectively. `zenity`, `kdialog`, and `yad` are not necessarily included in a Linux distribution and may need to be installed separately.
 
 ## Usage:
 
 ```julia
 using FilePicker
 
-filepicker()  # single file
+file()  # single file
 
-filepicker(true)  # multiple files
+files(true)  # multiple files
 
-dirpicker()  # directory
+dir()  # directory
+
+dirs()  # multiple directories
 ```
