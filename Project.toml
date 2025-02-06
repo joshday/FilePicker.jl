@@ -1,4 +1,4 @@
-name = "FilePicker"
+name = "FilePickerLight"
 uuid = "343e72c2-1f68-4e09-982b-00772761bd7a"
 authors = ["Josh Day <emailjoshday@gmail.com> and contributors"]
 version = "0.0.1"
