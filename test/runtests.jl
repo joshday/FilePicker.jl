@@ -1,4 +1,4 @@
-using FilePicker
+using FilePickerLight
 using Test
 
 # All testing requires interactive use

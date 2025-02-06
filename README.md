@@ -1,6 +1,6 @@
-# FilePicker
+# FilePickerLight
 
-[![Build Status](https://github.com/joshday/FilePicker.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/joshday/FilePicker.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://github.com/joshday/FilePickerLight.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/joshday/FilePickerLight.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 
 **A lightweight file picker for Julia.**
@@ -16,7 +16,7 @@ This package relies on different built-in[^1] dependencies depending on the plat
 ## Usage:
 
 ```julia
-using FilePicker
+using FilePickerLight
 
 file()  # single file
 
